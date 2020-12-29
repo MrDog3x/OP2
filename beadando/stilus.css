@@ -1,0 +1,107 @@
+body {
+	margin: 0;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	width: 20%;
+	background-color: white;
+	position:fixed;
+	height: 100%;
+	overflow:auto;
+}
+li a{
+	display: block;
+	color: green;
+	padding: 8px 16px;
+	text-decoration: none;
+        
+}
+li a.active{
+	background-color: red;
+	color: white;
+}
+li a:hover:not(.active) {
+	background-color:yellow;
+	color:#b9003d;
+}
+cim{
+	position:center;
+}
+
+.cimbox{
+	text-align:center;
+	position:center;
+	width: 400px;
+	height: 140px;
+	padding: 10px;
+	border: 10px solid gray;
+	margin-bottom: 10px;
+	background-color: darkblue;
+        font-family:sans-serif;
+}
+.etelek{
+  border-collapse: collapse;
+  background-color: yellowgreen;
+    color:white;
+}
+
+table{
+  border: 2px solid black;
+  margin-left:auto; 
+  margin-right:auto;
+}
+th{
+    border: 2px solid black;
+    font-size: 30px;
+}
+td{
+    border: 2px solid black;
+    font-size: 30px;
+}
+.elfogyott{
+     border-collapse: collapse;
+  background-color: red;
+    color: gray;
+}
+.italok{
+  border-collapse: collapse;
+  background-color: darkblue;
+  color: white;
+}
+.menük{
+     border-collapse: collapse;
+     background-color: yellow;
+     color: black;
+}
+.szallitas{
+  border-collapse: collapse;
+  background-color: white;
+  color: black;
+}
+.telefon{
+    text-align: center;
+    background-color: white;
+    font-family: fantasy;
+    font-weight: bold;
+    font-size: 30px;
+}
+.letoltes{
+	text-align:center;
+	position:center;
+	width: 200px;
+	height: 120px;
+	padding: 10px;
+	border: 10px solid black;
+	margin-bottom: 10px;
+	background-color: yellowgreen;
+        font-family:cursive;
+}
+.kep{
+    max-width: 500px;
+    max-height: 500px;
+}
+h3{
+    color:white;
+}
