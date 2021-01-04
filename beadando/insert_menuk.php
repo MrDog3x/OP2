@@ -4,7 +4,7 @@
     if(!array_key_exists('submit', $_POST)){
         // ha nincs adatküldés, akkor átirányítom 
         // az insert formra 
-        header('Location: http://localhost/beadando/insert_menu.php');
+        header('Location: insert_menu.php');
     }
     
     $valid = true;

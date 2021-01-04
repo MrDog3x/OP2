@@ -1,5 +1,5 @@
 <?php require_once './protected/database.php';?>
-<form action="http://localhost/beadando/insert_menuk.php"
+<form action="insert_menuk.php"
       method="POST"
       accept-charset="utf-8">
     

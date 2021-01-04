@@ -1,5 +1,5 @@
 <?php require_once './protected/database.php';?>
-<form action="http://localhost/beadando/insert_etelek.php"
+<form action="insert_etelek.php"
       method="POST"
       accept-charset="utf-8">
     
