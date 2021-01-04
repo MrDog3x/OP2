@@ -4,7 +4,7 @@ require_once './database.php';
     $params = [ 'id' => $_GET['id']];
     $record = selectOne($query, $params);
     if($record == NULL || empty($record)){
-        header('Location: http://localhost/beadando/admin.php');
+        header('Location: admin.php');
     }
     
     //kitörli az adott várost
@@ -12,5 +12,5 @@ require_once './database.php';
     $params = [ 'id' => $_GET['id']];
     delete($query, $params);
 
-    header('Location: http://localhost/beadando/admin.php');
+    header('Location: admin.php');
     ?>
