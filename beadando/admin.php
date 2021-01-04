@@ -49,7 +49,7 @@ Adj hozzá 1 képet az étteremről:
                 <td><?=$record['id']?></td>
                 <td><?=$record['name']?> </td>
                                 <td>
-                                    <a href="http://localhost/beadando/delete_etel.php?id=<?=$record['id']?>"><button>Törlés</button></a>
+                                    <a href="delete_etel.php?id=<?=$record['id']?>"><button>Törlés</button></a>
                 </td>
             </tr>
             <?php endforeach;?>
@@ -104,7 +104,7 @@ Adj hozzá 1 képet az étteremről:
                 <td><?=$record['id']?></td>
                 <td><?=$record['name']?> </td>
                 <td>
-                                    <a href="http://localhost/beadando/delete_ital.php?id=<?=$record['id']?>"><button>Törlés</button></a>
+                                    <a href="delete_ital.php?id=<?=$record['id']?>"><button>Törlés</button></a>
                 </td>
             </tr>
             <?php endforeach;?>
@@ -126,7 +126,7 @@ Adj hozzá 1 képet az étteremről:
                 <td><?=$record['id']?></td>
                 <td><?=$record['name']?> </td>
                 <td>
-                                    <a href="http://localhost/beadando/delete_menu.php?id=<?=$record['id']?>"><button>Törlés</button></a>
+                                    <a href="delete_menu.php?id=<?=$record['id']?>"><button>Törlés</button></a>
                 </td>
             </tr>
             <?php endforeach;?>
