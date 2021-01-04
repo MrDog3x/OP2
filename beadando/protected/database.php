@@ -1,10 +1,10 @@
 <?php
 define('DB_TYPE','mysql');
-define('DB_HOST','localhost');
+define('DB_HOST','remotemysql.com');
 define('DB_PORT','3306');
-define('DB_NAME','beadando');
-define('DB_USER','root');
-define('DB_PASS','');
+define('DB_NAME','kOjhjtgdFG');
+define('DB_USER','kOjhjtgdFG');
+define('DB_PASS','wlebMJkz65');
 
 function getConnection(){
     $dsn = DB_TYPE.':host='.DB_HOST.':'.DB_PORT.';dbname='.DB_NAME;
