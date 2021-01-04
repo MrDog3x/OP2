@@ -33,8 +33,6 @@ session_start();
             <a href="menu.xlsx" download="menu.xlsx">LETÖLTÉS</a>
             </font>
         </h2>
-        <h3>Egy kép az étteremről: </h3>
-        <img class="kep" src="./feltolt/etterem.png" alt="étterem"/>
     </center>
 </div>
 </body>

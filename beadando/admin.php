@@ -25,13 +25,7 @@ require_once './protected/database.php';
     session_unset();
     ?>
 <html>
-Adj hozzá 1 képet az étteremről:
-<form method="POST" action="upload.php" enctype="multipart/form-data">
-    <label for="upload">Fájl:</label>
-    <input type="file" id="upload" name="file"/>
-    <button type="submit" name="submit" value="upload">
-    MENTÉS
-    </button>
+
 </form>
     <br><br>
 <table>
