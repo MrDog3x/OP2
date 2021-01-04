@@ -51,7 +51,7 @@
         $success = insert($query, $params);
         
         if($success){
-            header('Location: http://localhost/beadando/admin.php');
+            header('Location:admin.php');
         }
         else{
             echo "Sikeretelen rögzítés!";
